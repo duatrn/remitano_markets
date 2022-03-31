@@ -1,0 +1,12 @@
+Get the price order from offer in Remitano
+Using api (api.remitano.com/api/v1/markets/{currency_pair}/order_book)
+
+{currency_pair} pair of crypto and base currency. Ex: BTCVND, ETHVND...
+- Base currency is VND
+- Crypto currencies are BTC, ETH, LTC, BCH, XRP, USDT (can be extended later)
+
+Result will show best bids and best asks price (json format)
+
+
+Programming language: Python
+Lib: Requests
