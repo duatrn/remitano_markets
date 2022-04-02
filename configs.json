@@ -1,0 +1,4 @@
+{
+    "API_URL": "https://api.remitano.com/api/v1/",
+    "LIST_CRYPTO_CURRENCIES": ["BTC", "ETH", "XRP", "LTC", "BCH", "USDT"]
+}
