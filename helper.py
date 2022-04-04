@@ -40,7 +40,7 @@ class Helper:
         cryptoValid = False
         while not cryptoValid:
             print("Crypto are now available: BTC, ETH, BCH, LTC, XRP, USDT")
-            crypto = input("Your crypto currency: ")
+            crypto = input("Your crypto currency: ").upper()
             if crypto not in config["LIST_CRYPTO_CURRENCIES"]:
                 print("Invalid crypto")
             else:
